@@ -1,0 +1,18 @@
+.contacts{
+  background: black;
+  &__row{
+    padding: 100px 50px;
+  }
+  &__info{
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 300;
+    display: flex;
+    column-gap: 15px;
+    color: white;
+    a{
+      color: white;
+    }
+  }
+}

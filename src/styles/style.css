@@ -1,0 +1,182 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+.container {
+  padding: 0 20px;
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header__nav {
+  padding: 20px;
+}
+.header__menu {
+  column-gap: 50px;
+  text-align: right;
+  justify-content: right;
+  align-items: center;
+  display: flex;
+}
+.header__menu-item {
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  color: black;
+}
+.header__menu-item:hover {
+  color: navy;
+  text-decoration: underline;
+}
+.header__contacts {
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+}
+
+.home {
+  background: black;
+}
+.home__row {
+  align-items: center;
+  padding: 100px 20px;
+}
+.home__info {
+  justify-content: center;
+}
+.home__title {
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  color: white;
+}
+.home__text {
+  font-size: 25px;
+  font-weight: 500;
+  margin-right: 600px;
+  margin-bottom: 50px;
+  line-height: 40px;
+  color: white;
+}
+.home__more {
+  padding: 0 910px 20px 0;
+}
+.home__btn {
+  background: navy;
+  padding: 20px 30px;
+  font-size: 18px;
+  color: white;
+  border-radius: 30px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.home__btn:hover {
+  color: navy;
+  background: white;
+}
+
+.about {
+  background: black;
+}
+.about__row {
+  align-items: center;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+.about__title {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  color: white;
+}
+.about__skills {
+  margin-top: 60px;
+}
+.about__list {
+  font-size: 20px;
+  font-weight: 300;
+  align-items: center;
+  color: white;
+}
+.about__list-item {
+  margin-bottom: 16px;
+  align-items: center;
+}
+.about__list-item::before {
+  content: "•";
+  font-size: 1em;
+  color: navy;
+}
+.about__texts {
+  margin-bottom: 20px;
+  color: white;
+  font-weight: 400;
+  font-size: 25px;
+}
+.about__text {
+  font-weight: 400;
+  font-size: 25px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.project {
+  background: black;
+}
+.project__row {
+  padding: 30px 30px;
+}
+.project__title {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 50px;
+  color: white;
+}
+.project__desc {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 70px;
+}
+.project__desc a {
+  color: white;
+  cursor: pointer;
+  background: navy;
+  padding: 10px;
+  border-radius: 18px;
+}
+.project__desc a:hover {
+  background: white;
+  color: navy;
+}
+.project__desc span {
+  color: navy;
+}
+
+.contacts {
+  background: black;
+}
+.contacts__row {
+  padding: 100px 50px;
+}
+.contacts__info {
+  align-items: center;
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: 300;
+  display: flex;
+  column-gap: 15px;
+  color: white;
+}
+.contacts__info a {
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

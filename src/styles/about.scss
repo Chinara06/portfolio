@@ -1,0 +1,44 @@
+.about{
+  background: black;
+  &__row{
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 50px;
+  }
+  &__title{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    color: white;
+  }
+  &__skills{
+    margin-top: 60px;
+  }
+  &__list{
+    font-size: 20px;
+    font-weight: 300;
+    align-items: center;
+    color: white;
+    &-item{
+      margin-bottom: 16px;
+      align-items: center;
+    }
+    &-item::before {
+      content: '•';
+      font-size: 1em;
+      color: navy;
+    }
+  }
+  &__texts{
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+  }
+  &__text{
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: white;
+  }
+}

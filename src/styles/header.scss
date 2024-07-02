@@ -1,0 +1,28 @@
+.header {
+  &__nav {
+    padding: 20px;
+  }
+
+  &__menu {
+    column-gap: 50px;
+    text-align: right;
+    justify-content: right;
+    align-items: center;
+    display: flex;
+  &-item{
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    color: black;
+  }
+    &-item:hover{
+      color: navy;
+      text-decoration: underline;
+    }
+  }
+  &__contacts{
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+  }
+}

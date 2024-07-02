@@ -1,0 +1,40 @@
+.home{
+  background: black;
+  &__row{
+    align-items: center;
+    padding: 100px 20px;
+  }
+  &__info{
+    justify-content: center;
+  }
+  &__title{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: white;
+  }
+  &__text{
+    font-size: 25px;
+    font-weight: 500;
+    margin-right: 600px;
+    margin-bottom: 50px;
+    line-height: 40px;
+    color: white;
+  }
+  &__more{
+    padding: 0 910px 20px 0;
+  }
+  &__btn{
+    background: navy;
+    padding: 20px 30px;
+    font-size: 18px;
+    color: white;
+    border-radius: 30px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  &__btn:hover{
+    color: navy;
+    background: white;
+  }
+}
