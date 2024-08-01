@@ -25,6 +25,17 @@
   align-items: center;
   display: flex;
 }
+.header__menu-home {
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  color: black;
+  margin-right: 600px;
+}
+.header__menu-home:hover {
+  color: #7f00e0;
+  text-decoration: underline;
+}
 .header__menu-item {
   font-size: 20px;
   font-weight: 400;
@@ -32,7 +43,7 @@
   color: black;
 }
 .header__menu-item:hover {
-  color: navy;
+  color: #7f00e0;
   text-decoration: underline;
 }
 .header__contacts {
@@ -40,9 +51,13 @@
   align-items: center;
   column-gap: 6px;
 }
+.header__contacts:hover {
+  color: #7f00e0;
+  text-decoration: underline;
+}
 
 .home {
-  background: black;
+  background: #f4f9fc;
 }
 .home__row {
   align-items: center;
@@ -55,7 +70,7 @@
   font-size: 35px;
   font-weight: 500;
   margin-bottom: 30px;
-  color: white;
+  color: #0f1b61;
 }
 .home__text {
   font-size: 25px;
@@ -63,7 +78,7 @@
   margin-right: 600px;
   margin-bottom: 50px;
   line-height: 40px;
-  color: white;
+  color: #0f1b61;
 }
 .home__more {
   padding: 0 910px 20px 0;
@@ -83,7 +98,7 @@
 }
 
 .about {
-  background: black;
+  background: #f4f9fc;
 }
 .about__row {
   align-items: center;
@@ -91,19 +106,19 @@
   margin-bottom: 50px;
 }
 .about__title {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 300;
   margin-bottom: 30px;
-  color: white;
+  color: #0f1b61;
 }
 .about__skills {
   margin-top: 60px;
 }
 .about__list {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 300;
   align-items: center;
-  color: white;
+  color: #0f1b61;
 }
 .about__list-item {
   margin-bottom: 16px;
@@ -112,11 +127,11 @@
 .about__list-item::before {
   content: "•";
   font-size: 1em;
-  color: navy;
+  color: #7f00e0;
 }
 .about__texts {
   margin-bottom: 20px;
-  color: white;
+  color: #0f1b61;
   font-weight: 400;
   font-size: 25px;
 }
@@ -124,52 +139,55 @@
   font-weight: 400;
   font-size: 25px;
   margin-bottom: 30px;
-  color: white;
+  color: #0f1b61;
 }
 
 .project {
-  background: black;
+  background: #f4f9fc;
 }
 .project__row {
   padding: 30px 30px;
+}
+.project__left {
+  padding-right: 200px;
 }
 .project__title {
   font-size: 40px;
   font-weight: 400;
   margin-bottom: 50px;
-  color: white;
+  color: #0f1b61;
 }
-.project__desc {
-  color: white;
-  font-size: 20px;
+.project__card {
+  color: #0f1b61;
+  font-size: 25px;
   font-weight: 300;
-  margin-bottom: 70px;
+  padding: 20px;
+  margin-bottom: 50px;
+  border: 1px solid darkblue;
+  border-radius: 20px;
 }
-.project__desc a {
+.project__card a {
   color: white;
   cursor: pointer;
   background: navy;
   padding: 10px;
   border-radius: 18px;
 }
-.project__desc a:hover {
+.project__card a:hover {
   background: white;
-  color: navy;
-}
-.project__desc span {
-  color: navy;
+  color: #0f1b61;
 }
 
 .contacts {
-  background: black;
+  background: #aadcec;
 }
 .contacts__row {
-  padding: 100px 50px;
+  padding: 200px 50px;
 }
 .contacts__info {
   align-items: center;
   margin-bottom: 30px;
-  font-size: 25px;
+  font-size: 40px;
   font-weight: 300;
   display: flex;
   column-gap: 15px;

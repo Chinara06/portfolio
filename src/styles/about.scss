@@ -1,24 +1,24 @@
 .about{
-  background: black;
+  background: #f4f9fc;
   &__row{
     align-items: center;
     padding: 30px;
     margin-bottom: 50px;
   }
   &__title{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 300;
     margin-bottom: 30px;
-    color: white;
+    color: #0f1b61;
   }
   &__skills{
     margin-top: 60px;
   }
   &__list{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 300;
     align-items: center;
-    color: white;
+    color: #0f1b61;
     &-item{
       margin-bottom: 16px;
       align-items: center;
@@ -26,12 +26,12 @@
     &-item::before {
       content: '•';
       font-size: 1em;
-      color: navy;
+      color: #7f00e0;
     }
   }
   &__texts{
     margin-bottom: 20px;
-    color: white;
+    color: #0f1b61;
     font-weight: 400;
     font-size: 25px;
   }
@@ -39,6 +39,6 @@
     font-weight: 400;
     font-size: 25px;
     margin-bottom: 30px;
-    color: white;
+    color: #0f1b61;
   }
 }

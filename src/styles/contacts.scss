@@ -1,12 +1,13 @@
+
 .contacts{
-  background: black;
+  background: #aadcec;
   &__row{
-    padding: 100px 50px;
+    padding: 200px 50px;
   }
   &__info{
     align-items: center;
     margin-bottom: 30px;
-    font-size: 25px;
+    font-size: 40px;
     font-weight: 300;
     display: flex;
     column-gap: 15px;

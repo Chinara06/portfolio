@@ -2,13 +2,23 @@
   &__nav {
     padding: 20px;
   }
-
   &__menu {
     column-gap: 50px;
     text-align: right;
     justify-content: right;
     align-items: center;
     display: flex;
+    &-home{
+      font-size: 20px;
+      font-weight: 400;
+      cursor: pointer;
+      color: black;
+      margin-right: 600px;
+    }
+    &-home:hover{
+      color:#7f00e0;
+      text-decoration: underline;
+    }
   &-item{
     font-size: 20px;
     font-weight: 400;
@@ -16,7 +26,7 @@
     color: black;
   }
     &-item:hover{
-      color: navy;
+      color:#7f00e0;
       text-decoration: underline;
     }
   }
@@ -24,5 +34,9 @@
     display: flex;
     align-items: center;
     column-gap: 6px;
+  }
+  &__contacts:hover{
+    color:#7f00e0;
+    text-decoration: underline;
   }
 }

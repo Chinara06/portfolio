@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2f18740-2d9c-4238-967d-2a6040b237d1" name="Default Changelist" comment="" />
+    <list default="true" id="e2f18740-2d9c-4238-967d-2a6040b237d1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Layout/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Layout/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Projects/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Projects/Projects.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/contacts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/projects.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css.map" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +90,12 @@
       <workItem from="1719928667553" duration="3000" />
       <workItem from="1719928840013" duration="181000" />
       <workItem from="1719929082478" duration="3000" />
-      <workItem from="1719929251290" duration="270000" />
+      <workItem from="1719929251290" duration="615000" />
+      <workItem from="1719929895811" duration="290000" />
+      <workItem from="1720427475712" duration="5000" />
+      <workItem from="1720773781859" duration="172000" />
+      <workItem from="1720776394960" duration="2000" />
+      <workItem from="1722490916535" duration="3062000" />
     </task>
     <servers />
   </component>

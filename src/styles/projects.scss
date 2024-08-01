@@ -1,19 +1,25 @@
 .project{
-  background: black;
+  background: #f4f9fc;
   &__row{
     padding: 30px 30px;
+  }
+  &__left{
+    padding-right: 200px;
   }
   &__title{
     font-size: 40px;
     font-weight: 400;
     margin-bottom: 50px;
-    color: white;
+    color: #0f1b61;
   }
-  &__desc{
-    color: white;
-    font-size: 20px;
+  &__card{
+    color: #0f1b61;
+    font-size: 25px;
     font-weight: 300;
-    margin-bottom: 70px;
+    padding: 20px;
+    margin-bottom: 50px;
+    border: 1px solid darkblue;
+    border-radius: 20px;
     a{
       color: white;
       cursor: pointer;
@@ -23,10 +29,7 @@
     }
     a:hover{
       background: white;
-      color: navy;
-    }
-    span{
-      color: navy;
+      color: #0f1b61;
     }
   }
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import { IoIosCall } from "react-icons/io";
+import { FaHome } from "react-icons/fa";
 import {Link} from "react-router-dom";
 const Header = () => {
     return (
@@ -7,6 +8,11 @@ const Header = () => {
             <div className="container">
                 <div className="header__nav">
                     <ul className="header__menu">
+                        <Link to={"/"}>
+                            <li className="header__menu-home">
+                                <FaHome size={30} />
+                            </li>
+                        </Link>
                         <Link to={"/about"}>
                             <li className="header__menu-item">
                                 Обо мне
