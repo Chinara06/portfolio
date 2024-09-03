@@ -69,11 +69,11 @@
 .home__title {
   font-size: 35px;
   font-weight: 500;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   color: #0f1b61;
 }
 .home__text {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 500;
   margin-right: 600px;
   margin-bottom: 50px;
@@ -85,16 +85,18 @@
 }
 .home__btn {
   background: navy;
-  padding: 20px 30px;
-  font-size: 18px;
+  padding: 20px;
+  font-size: 20px;
   color: white;
   border-radius: 30px;
   font-weight: 400;
   cursor: pointer;
 }
 .home__btn:hover {
-  color: navy;
-  background: white;
+  color: #7f00e0;
+  background: #f4f9fc;
+  border: 1px solid #7f00e0;
+  padding: 21px;
 }
 
 .about {
@@ -174,12 +176,14 @@
   border-radius: 18px;
 }
 .project__card a:hover {
-  background: white;
-  color: #0f1b61;
+  color: #7f00e0;
+  background: #f4f9fc;
+  border: 1px solid #7f00e0;
+  padding: 11px;
 }
 
 .contacts {
-  background: #aadcec;
+  background: #f4f9fc;
 }
 .contacts__row {
   padding: 200px 50px;
@@ -191,10 +195,14 @@
   font-weight: 300;
   display: flex;
   column-gap: 15px;
-  color: white;
+  color: #0f1b61;
 }
 .contacts__info a {
-  color: white;
+  color: #0f1b61;
+}
+.contacts__info a:hover {
+  color: #7f00e0;
+  font-size: 41px;
 }
 
 /*# sourceMappingURL=style.css.map */

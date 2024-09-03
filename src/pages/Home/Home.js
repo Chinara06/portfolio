@@ -9,7 +9,7 @@ const Home = () => {
                 <div className="home__row">
                     <div className="home__info">
                         <h2 className="home__title">
-                            Здраствуйте,меня зовут Чинара.
+                            Здраствуйте,меня зовут <strong> Чинара</strong>.
                         </h2>
                         <p className="home__text">
                             Я начинающий фронтенд-разработчик с опытом работы с HTML, CSS и JavaScript. У меня также есть опыт работы с фреймворком React.

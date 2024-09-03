@@ -25,7 +25,22 @@ const Projects = () => {
                         <a href="https://github.com/Muslim0270705/YankiC">Открыть в Github</a>
                     </div>
                         <div className="project__card">
-                            <b>Проект 2: </b>Сайт приложения <strong>"Flo"</strong>
+                            <b>Проект 2: </b>Сайт интернет магазина <strong>"Rhoud"</strong>
+                            <br/>
+                            <br/>
+                            Сделано мной
+                            <br/>
+                            <br/>
+                            Прототип интернет-магазина с функционалом корзины, регистратции, избранного, поисковика.
+                            <br/>
+                            <br/>
+                            Технологии: HTML, Scss, ReactJS,Redux .
+                            <br/>
+                            <br/>
+                            <a href="https://github.com/Chinara06/Rhode">Открыть в Github</a>
+                        </div>
+                        <div className="project__card">
+                            <b>Проект 3: </b>Сайт приложения <strong>"Flo"</strong>
                             <br/>
                             <br/>
                             Сделано мной
@@ -40,7 +55,7 @@ const Projects = () => {
                             <a href="https://github.com/Chinara06/flo">Открыть в Github</a>
                         </div>
                         <div className="project__card">
-                            <b>Проект 3: </b> Сайт <strong>"HeadHunter"</strong>
+                            <b>Проект 4: </b> Сайт <strong>"HeadHunter"</strong>
                             <br/>
                             <br/>
                             Сделано совместно с командой
@@ -55,7 +70,7 @@ const Projects = () => {
                             <a href="https://github.com/Muslim0270705/HH">Открыть в Github</a>
                         </div>
                         <div className="project__card">
-                            <b>Проект 4:</b> Сайт ветеринапной клиники <strong>"Aibolit"</strong>
+                            <b>Проект 5:</b> Сайт ветеринапной клиники <strong>"Aibolit"</strong>
                             <br/>
                             <br/>
                             Сделано мной
@@ -70,7 +85,7 @@ const Projects = () => {
                             <a href="https://github.com/Chinara06/aibolit">Открыть в Github</a>
                         </div>
                         <div className="project__card">
-                            <b>Проект 5:</b> Сайт  <strong>"Outdoor"</strong>
+                            <b>Проект 6:</b> Сайт  <strong>"Outdoor"</strong>
                             <br/>
                             <br/>
                             Сделано мной
@@ -84,6 +99,7 @@ const Projects = () => {
                             <br/>
                             <a href="https://github.com/Chinara06/outdoor">Открыть в Github</a>
                         </div>
+
                     </div>
                     <div className="project__right">
 

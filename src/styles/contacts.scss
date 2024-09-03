@@ -1,6 +1,6 @@
 
 .contacts{
-  background: #aadcec;
+  background: #f4f9fc;
   &__row{
     padding: 200px 50px;
   }
@@ -11,9 +11,13 @@
     font-weight: 300;
     display: flex;
     column-gap: 15px;
-    color: white;
+    color: #0f1b61;
     a{
-      color: white;
+      color: #0f1b61;
+    }
+    a:hover{
+      color:#7f00e0;
+      font-size: 41px;
     }
   }
 }

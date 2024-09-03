@@ -16,10 +16,10 @@ const Contacts = () => {
                     <p className="contacts__info">
                         <IoCallOutline /> Номер телефона: +996 0552 44 11 57
                     </p>
-                    <div className="contacts__info">
+                    <p className="contacts__info">
                             <MdOutlineMail />
                             Email: toktogulovacinara8@gmail.com
-                    </div>
+                    </p>
                 </div>
             </div>
         </div>

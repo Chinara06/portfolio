@@ -3,11 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="e2f18740-2d9c-4238-967d-2a6040b237d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Layout/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Layout/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Projects/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Projects/Projects.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/About/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Contacts/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contacts/Contacts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Layout/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Layout/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Layout/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Layout/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Projects/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Projects/Projects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/contacts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/projects.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css" afterDir="false" />
@@ -96,11 +98,44 @@
       <workItem from="1720773781859" duration="172000" />
       <workItem from="1720776394960" duration="2000" />
       <workItem from="1722490916535" duration="3062000" />
+      <workItem from="1722494170412" duration="3058000" />
+      <workItem from="1722497747517" duration="31000" />
+      <workItem from="1722498327081" duration="24000" />
+      <workItem from="1722498954094" duration="20000" />
+      <workItem from="1722499135454" duration="28000" />
+      <workItem from="1722499306489" duration="5000" />
+      <workItem from="1722499321642" duration="7000" />
+      <workItem from="1722500254044" duration="12000" />
+      <workItem from="1722500284064" duration="18000" />
+      <workItem from="1722500355767" duration="6000" />
+      <workItem from="1722500467280" duration="21000" />
+      <workItem from="1722500518035" duration="7000" />
+      <workItem from="1722500539067" duration="4000" />
+      <workItem from="1722500571063" duration="6000" />
+      <workItem from="1722500645963" duration="124000" />
+      <workItem from="1722500832115" duration="15000" />
+      <workItem from="1722500881031" duration="3000" />
+      <workItem from="1722500886513" duration="3000" />
+      <workItem from="1722500926550" duration="13000" />
+      <workItem from="1722501200481" duration="25000" />
+      <workItem from="1722501875385" duration="15000" />
+      <workItem from="1722501944816" duration="9000" />
+      <workItem from="1722501983578" duration="61000" />
+      <workItem from="1722502096778" duration="10000" />
+      <workItem from="1722508272592" duration="76000" />
+      <workItem from="1722582641390" duration="58000" />
+      <workItem from="1722774350422" duration="286000" />
+      <workItem from="1725346242630" duration="335000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/node_modules/tailwindcss/stubs/tailwind.config.js" />
+      </list>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1719916076722">
